@@ -5,62 +5,7 @@
 #include "driver/rtc_io.h"
 MOSI
 
-/*#include <Wire.h>
-//#include "apds9301.h"
 
-#define IMUinterruptPin     12
-#define LIGHTinterruptPin   13
-
-
-volatile bool KV_LIGHT_INT_HIGH_STATUS = false;
-volatile bool KV_IMU_INT_HIGH_STATUS = false;
-void  kv_imu_interrupt_func() {
-  KV_IMU_INT_HIGH_STATUS = true;
-}
-void  kv_light_interrupt_func() {
-  KV_LIGHT_INT_HIGH_STATUS = true;
-}
-
-
-
-
-#define BIT_SET(a,b) ((a) |= (1ULL<<(b)))
-
-void ULP_BLINK_RUN(uint32_t us);
-
-
-
-LuxI2C_APDS9301 light = LuxI2C_APDS9301(0x39);
-
-
-
-void setup_light(){
-    Wire.begin();
-
-
-    light.powerOn();
-    delay(2);
-
-    if(light.isPowerOn()){
-        Serial.println("LIGHT SENSOR IS ON");
-    }
-    else{
-        Serial.println("LIGHT SENSOR IS OFF");
-    }
-
-
-    light.setADCGain(LuxI2C_APDS9301::ADCGain::high_gain);
-
-    light.setLowThreshold(0);
-    light.setHighThreshold(900);
-    light.setOutputInterruptOn();
-
-
-    light.setIntegrationTime(LuxI2C_APDS9301::low_time);
-    light.setGenerateInterruptPeriod(2);
-    light.clearInterrupt();
-}
-*/
 void ULP_READ_INT() {
     RTC_SLOW_MEM[12] = 0;
     ulp_set_wakeup_period(0, 100000L);
