@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\Vijay\\.platformio\\penv\\Scripts;C:\\Users\\Vijay\\.platformio\\penv;C:\\Python27\\;C:\\Python27\\Scripts;c:\\Software\\octave3.6.4\\bin;C:\\Program Files (x86)\\Qucs\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Broadcom\\Broadcom 802.11;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Flash Magic;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;;C:\\Users\\Vijay\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Python27\\;C:\\Python27\\Scripts;c:\\Software\\octave3.6.4\\bin;C:\\Program Files (x86)\\Qucs\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Broadcom\\Broadcom 802.11;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Flash Magic;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;;C:\\Users\\Vijay\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
